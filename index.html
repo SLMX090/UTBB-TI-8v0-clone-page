@@ -5,18 +5,496 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>airbnb</title>
     <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="img/logo.ico" type="image/x-icon">
+     
 </head>
 <body>
-    <nav>
-        <img src="" alt="logo de airbnb">
-        <img src="" alt="alojamientos"><h3>Alojamientos</h3>
-        <img src="" alt="experiencias"><h3>Experiencias</h3>
-        <img src="" alt="servicios"><h3>Servicios</h3>
-        <h3>Conviertete en un anfitrión</h3>
-        <button><img src="" alt="mundo"></button>
-        <button><img src="" alt="menu"></button>
+    <nav class="navbar">
+
+  <!-- Logo -->
+  <div class="nav-logo">
+    <a class="nv1" href="index.html"><img class="logo" src="img/logo.png" alt="Logo de Airbnb"></a>
+  </div>
+
+    <!-- Categorías -->
+  <ul class="nav-categories">
+    <li class="active">
+      <img src="img/house.png" alt="">
+      <span>Alojamientos</span>
+    </li>
+
+    <li>
+      <img src="img/ex.png" alt="">
+      <span>Experiencias</span>
+    </li>
+
+    <li>
+      <img src="img/service.png" alt="">
+      <span>Servicios</span>
+    </li>
+  </ul>
+
+  <!-- Acciones -->
+  <div class="nav-actions">
+    <span><a class="nv1" href="#">Conviértete en un anfitrión</a></span>
+    <button class="-m" ><img class="img" src="img/idioma.png" alt="Idioma"></button>
+    <button class="-m"><img class="img" src="img/menu.png" alt="Menú"></button>
+  </div>
+</nav>
+<section class="search-section">
+    <div class="search-bar">
+        <div class="field">
+            <label>Destino</label>
+            <input type="text" placeholder="Buscar destinos">
+        </div>
+
+        <div class="divider"></div>
+
+            <div class="field">
+                <label>Fechas</label>
+                <input type="text" placeholder="Agregar fechas">
+            </div>
+
+        <div class="divider"></div>
+
+        <div class="field">
+            <label>Huéspedes</label>
+            <input type="text" placeholder="¿Cuántos?">
+        </div>
+
+        <button class="search-btn">🔍</button>
+    </div>
+</section>
+
+    <!-- listas de alojamientos -->
+    <section class="listings">
+        <h2>Hospédate en Ciudad de México &gt;</h2>
+        <div class="slider-controls">
+            <button class="arrow prev">‹</button>
+            <button class="arrow next">›</button>
+        </div>
+
+        <div class="slider">
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+        </div>    
+
+
+    <h2>Alojamientos populares en Guadalajara &gt;</h2>
+    <div class="slider-controls">
+            <button class="arrow prev">‹</button>
+            <button class="arrow next">›</button>
+        </div>
+
+    <div class="slider">
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+    <h2>Disponibles  en Puerto Vallarta este fin de semana &gt;</h2>
+    <div class="slider-controls">
+            <button class="arrow prev">‹</button>
+            <button class="arrow next">›</button>
+        </div>
+
+     <div class="slider">
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/cdmx/a-1.avif" alt="a-1">
+                    <span class="badge">Favorito entre huéspedes</span>
+                    <button class="like-btn">♡</button>
+                </div>
+
+                <div class="card-info">
+                    <h3>Departamento en CDMX</h3>
+                    <p class="dates">20–22 de feb</p>
+
+                    <div class="price-rating">
+                        <span class="price">$2,302 MXN por 2 noches</span>
+                        <span class="rating">★ 4.89</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+    <!-- parte inferior -->
+    <section class="inspiracion">
+    <h2>Inspiración para futuras escapadas</h2>
+
+      <nav class="tabs">
+    <ul class="ul-footer">
+      <li class="active">Populares</li>
+      <li>Arte y cultura</li>
+      <li>Playa</li>
+      <li>Montañas</li>
+      <li>Al aire libre</li>
+      <li>Actividades</li>
+    </ul>
     </nav>
+
+    <div class="destinos">
     
+    <article class="destino">
+      <h3>Dallas</h3>
+      <p>Casas en renta</p>
+    </article>
+
+    <article class="destino">
+      <h3>Cleveland</h3>
+      <p>Villas</p>
+    </article>
+
+    <article class="destino">
+      <h3>San Antonio</h3>
+      <p>Alojamientos para estancias largas</p>
+    </article>
+
+    <article class="destino more">
+      <span>Mostrar más</span>
+    </article>
+
+    </div>
+</section>
+
+    <!-- footer -->
+    </section>
+    <footer class="footer-links">
+
+  <div class="footer-col">
+    <h4>Asistencia</h4>
+    <ul>
+      <li><a href="#">Centro de Ayuda</a></li>
+      <li><a href="#">Opciones de cancelación</a></li>
+      <li><a href="#">Antidiscriminación</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-col">
+    <h4>Cómo ser anfitrión</h4>
+    <ul>
+      <li><a href="#">Hazlo Airbnb</a></li>
+      <li><a href="#">AirCover para anfitriones</a></li>
+      <li><a href="#">Foro de la comunidad</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-col">
+    <h4>Airbnb</h4>
+    <ul>
+      <li><a href="#">Sala de prensa</a></li>
+      <li><a href="#">Empleo</a></li>
+      <li><a href="#">Inversores</a></li>
+    </ul>
+  </div>
+
+</footer>
+
     
 </body>
 </html>
