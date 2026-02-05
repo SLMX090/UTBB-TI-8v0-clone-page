@@ -1,6 +1,11 @@
-
+body{
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
 /* top & navbar */
 .navbar {
+  background-color: #f7f7f7;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -213,12 +218,15 @@
 }
 
 .like-btn {
+  font-size: large;
   position: absolute;
-  top: 12px;
+  top: 5px;
   right: 12px;
   border: none;
-  background: rgba(255,255,255,0.9);
   border-radius: 50%;
+   background: transparent; 
+  appearance: none;        
+  -webkit-appearance: none; 
   width: 32px;
   height: 32px;
   cursor: pointer;
@@ -229,26 +237,63 @@
 }
 
 .card-info h3 {
-  font-size: 14px;
+  font-size: medium;
   margin: 8px 0 4px;
 }
 
 .card-info p {
-  font-size: 13px;
-  color: #717171;
+  font-size: 16px;
+  font-weight: 300;
   margin: 0;
 }
+
 
 .price-rating {
   display: flex;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: 16px;
   margin-top: 4px;
+}
+
+.rating {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.more a{
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  gap: 24px;
+  list-style: none;
+  padding-left: 0%; 
+}
+
+.more a:hover {
+  text-decoration: underline;
 }
 
 
 
 /* footer */
+.inspiracion {
+  background-color: #f7f7f7;
+}
+
+.tabs {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+
+
+footer{
+  background-color: #f7f7f7;
+}
 
 .ul-footer {
   display: flex;
@@ -257,10 +302,43 @@
   padding-left: 0;
 }
 
-.destinos {
-  display: flex;
-  gap: 8%;
+.ul-footer li a {
+  text-decoration: none;
+  color: #717171;
 }
+
+.ul-footer li.activo a {
+  color: #000;
+  font-weight: 500;
+}
+
+.ul-footer li.activo a::after {
+  content: "";
+  position: absolute;
+  
+}
+
+.destinos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 32px 24px; /* filas | columnas */
+  margin-top: 24px;
+}
+
+.destino h3, .destino h3 a {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.destino p {
+  font-size: 14px;
+  color: #717171;
+  margin: 4px 0 0;
+}
+
 
 .footer-links {
   display: flex;
@@ -273,7 +351,7 @@
   margin-bottom: 22px;
 }
 
-.footer-col ul, .footer-col a{
+.ul-footer a,  .footer-col ul, .footer-col a{
   text-decoration: none;
   color: #333;
   gap: 24px;
@@ -281,10 +359,14 @@
   padding-left: 0%; 
 }
 
+.active a {
+  font-weight: 600;
+}
+
 .footer-col a {
   line-height: 1.4;
 }
 
-.footer-col a:hover {
+.footer-col a:hover, .ul-footer a:hover, .destino h3 a:hover {
   text-decoration: underline;
 }
