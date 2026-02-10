@@ -1,8 +1,15 @@
 body{
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
 }
+
+header,
+main,
+section {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+
 /* top & navbar */
 .navbar {
   background-color: #f7f7f7;
@@ -183,6 +190,12 @@ body{
 
 
 .slider {
+  margin-left: -0.5%;
+  margin-right: -1.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  box-sizing: border-box;
+  max-width: 100%;
   display: flex;
   gap: 16px;
   overflow-x: auto;
