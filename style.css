@@ -4,7 +4,7 @@ body{
 
 header,
 main,
-section {
+section, .footer-col {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
@@ -295,7 +295,7 @@ section {
 
 /* footer */
 .inspiracion {
-  background-color: #f7f7f7;
+  background-color: rgb(253, 249, 240);
 }
 
 .tabs {
